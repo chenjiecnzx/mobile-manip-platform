@@ -1,0 +1,21 @@
+# 厂家资料不进仓库（无授权声明，且有 33 GB）
+/ROSOrin Pro*/
+
+# macOS 和网络盘产生的杂项文件
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+
+# colcon 构建产物
+/build/
+/install/
+/log/
+
+# 大文件：系统盘镜像和 rosbag 不进仓库
+*.img
+*.img.gz
+*.db3
+*.mcap
